@@ -9,6 +9,6 @@ Built-in Modules, Utilização pura da linguagem.
 
 # funcionalidades principais
 Cadastro com validação: Registra nome, idade e nota, garantindo que a nota esteja estritamente entre 0 e 10;                                 
-Formatador de dados: Padronização automática de nomes utilizando capitalização .title() e remoção de espaços extras .strip();                                       
+Formatador de dados: Padronização de nomes utilizando capitalização .title() e remoção de espaços extras .strip();                                       
 Busca e remoção linear: Filtros otimizados para localizar ou remover alunos específicos da memória pelo nome;                                
 Métrica estatística: Cálculo em tempo real da média aritmética geral de todas as notas cadastradas.
