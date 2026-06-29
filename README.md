@@ -5,10 +5,12 @@ O projeto demonstra conceitos fundamentais de lógica, manipulação de coleçõ
 # tecnologias e ferramentas
 O projeto foi construído utilizando:                                                               
 Python, Uso de recursos como o match/case;                                                               
-Built-in Modules, Utilização pura da linguagem.
+Built-in Modules, Utilização pura da linguagem (json e os);
+JSON, Armazenamento estruturado para persistência de dados.
 
 # funcionalidades principais
 Cadastro com validação: Registra nome, idade e nota, garantindo que a nota esteja estritamente entre 0 e 10;                                 
 Formatador de dados: Padronização de nomes utilizando capitalização .title() e remoção de espaços extras .strip();                                       
 Busca e remoção linear: Filtros otimizados para localizar ou remover alunos específicos da memória pelo nome;                                
-Métrica estatística: Cálculo em tempo real da média aritmética geral de todas as notas cadastradas.
+Métrica estatística: Cálculo em tempo real da média aritmética geral de todas as notas cadastradas;
+Persistência de dados: Salvamento e carregamento automático das informações em arquivo externo, evitando a perda de dados ao fechar o programa.
